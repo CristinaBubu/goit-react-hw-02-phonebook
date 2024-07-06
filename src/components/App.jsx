@@ -60,7 +60,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <PhonebookForm onSubmitData={this.formSubmitHandler} />
+        <PhonebookForm onSubmit={this.formSubmitHandler} />
         <FilterContacts setFilterToState={this.setFilterToState} />
         <Contacts
           contacts={this.filterArr(this.state.contacts)}
