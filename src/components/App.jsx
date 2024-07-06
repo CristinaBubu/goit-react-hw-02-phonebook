@@ -51,8 +51,8 @@ export class App extends Component {
   };
 
   filterArr = fArr => {
-    let newArr = fArr.filter(cur =>
-      cur.name.toUpperCase().includes(this.state.filter),
+    let newArr = fArr.filter(current =>
+      current.name.toUpperCase().includes(this.state.filter),
     );
     return newArr;
   };
