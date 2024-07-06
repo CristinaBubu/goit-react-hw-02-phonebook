@@ -29,7 +29,7 @@ export class App extends Component {
       ];
       return this.setState({ ...this.state, contacts: arrayContacts });
     } else {
-      alert('The contact is already in the phone book');
+      alert('The contact is already in the phonebook');
     }
   };
 
