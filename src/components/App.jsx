@@ -59,7 +59,7 @@ export class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className='flex'>
         <PhonebookForm onSubmit={this.formSubmitHandler} />
         <FilterContacts setFilterToState={this.setFilterToState} />
         <Contacts
